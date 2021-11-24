@@ -14,3 +14,9 @@ sudo /usr/hdp/current/spark2-client/bin/spark-submit data_cleaning.py /user/mari
 ```
 sudo /usr/hdp/current/spark2-client/bin/spark-submit machine_learning.py
 ```
+```
+sudo /usr/hdp/current/spark2-client/bin/spark-submit --packages graphframes:graphframes:0.8.2-spark2.4-s_2.11 machine_learning.py
+```
+```
+sudo /usr/hdp/current/spark2-client/bin/spark-submit --jars graphframes-0.8.2-spark2.4-s_2.11.jar machine_learning.py
+```
